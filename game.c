@@ -213,6 +213,8 @@ if(menu == 2)
         }
   }
 break;
+	printf(Rebekah Woo, you got: 10/10 right!\n")
+break;
  }
 }
 }
