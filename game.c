@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <string.h>
 
+// myheader.h 
+
+void printGame(struct Game* question);
+
+// file1.cpp
+
+#include "myheader.h"
+
 struct Game {
         char firstname[256];
         char lastname[256];
@@ -9,6 +17,7 @@ struct Game {
 void printGame(struct Game* question);
 int main()
 {
+	// call a function in a different cpp file
 	int one;
  	int two;
 	int three;
